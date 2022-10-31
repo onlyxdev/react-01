@@ -1,0 +1,59 @@
+.top-header {
+    min-height: 10vh;
+    width: 100vw;
+    background-color: #DDF4FF;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-in {
+    width: 80%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.nav-in h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.firstUl {
+    display: flex;
+    gap: 2vw;
+}
+
+.firstUl li, .secondUl li {
+    list-style-type: none;
+}
+
+.firstUl li a {
+    text-decoration: none;
+    color: #737373;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.secondUl {
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    margin-left: 8vw;
+}
+
+.secondUl a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #96BB7C;
+    font-weight: 700;
+}
+
+.secondUl button {
+    background-color: #96BB7C;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}

@@ -1,0 +1,61 @@
+.container-all {
+    background-color: #DDF4FF;
+    min-height: 90vh;
+    width: 100vw;
+    display: flex;
+}
+
+.container-40 {
+    width: 40%;
+    margin: 2vh 9vw 10vh 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-40 h4 {
+    font-size: 16px;
+    color: #96BB7C;
+}
+
+.container-40 h1 {
+    font-size: 50px;
+    color: #252B42;
+    margin: -10px 0 -10px 0;
+}
+
+.container-40 h5 {
+    font-size: 22px;
+    color: #737373;
+}
+
+.container-60 {
+    width: 60%;
+    height: 90vh;
+    display: flex;
+}
+
+.btn-containers {
+    display: flex;
+    gap: 8px;
+}
+
+.btn-green {
+    background-color: #96BB7C;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-off {
+    background-color: #DDF4FF;
+    color: #96BB7C;
+    padding: 15px 35px;
+    border: 1px solid #96BB7C;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
